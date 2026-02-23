@@ -1,0 +1,161 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#f8fbff',
+    },
+    header: {
+        padding: 20,
+        backgroundColor: '#fff',
+        borderBottomWidth: 1,
+        borderBottomColor: '#eee',
+    },
+    welcomeText: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#2d3a4a',
+    },
+    childCard: {
+        backgroundColor: '#fff',
+        margin: 20,
+        padding: 20,
+        borderRadius: 12,
+        elevation: 3,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.1,
+        shadowRadius: 3,
+    },
+    childTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#2d3a4a',
+        marginBottom: 12,
+    },
+    childInfo: {
+        fontSize: 14,
+        color: '#555',
+        marginBottom: 4,
+    },
+    nextVaccineCard: {
+        backgroundColor: '#e8f5e9',
+        marginHorizontal: 20,
+        marginBottom: 15,
+        padding: 16,
+        borderRadius: 12,
+    },
+    nextVaccineTitle: {
+        fontSize: 14,
+        color: '#2e7d32',
+        fontWeight: '600',
+        marginBottom: 8,
+    },
+    nextVaccineName: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#1b5e20',
+    },
+    dueText: {
+        fontSize: 13,
+        color: '#388e3c',
+        marginTop: 4,
+    },
+    markDoneButton: {
+        backgroundColor: '#4CAF50',
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 8,
+        alignSelf: 'flex-start',
+        marginTop: 12,
+    },
+    markDoneText: {
+        color: '#fff',
+        fontWeight: 'bold',
+    },
+    progressCard: {
+        backgroundColor: '#e3f2fd',
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 16,
+        borderRadius: 12,
+    },
+    progressTitle: {
+        fontSize: 14,
+        color: '#1565c0',
+        fontWeight: '600',
+    },
+    progressText: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: '#0d47a1',
+        marginTop: 4,
+    },
+    scheduleTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#2d3a4a',
+        marginHorizontal: 20,
+        marginBottom: 12,
+    },
+    tableHeader: {
+        flexDirection: 'row',
+        backgroundColor: '#2d3a4a',
+        paddingVertical: 12,
+        paddingHorizontal: 20,
+        marginHorizontal: 20,
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
+    },
+    tableHeaderCell: {
+        flex: 1,
+        color: '#fff',
+        fontWeight: 'bold',
+        fontSize: 13,
+    },
+    tableRow: {
+        flexDirection: 'row',
+        paddingVertical: 12,
+        paddingHorizontal: 20,
+        marginHorizontal: 20,
+        backgroundColor: '#fff',
+        borderBottomWidth: 1,
+        borderBottomColor: '#eee',
+    },
+    tableRowLast: {
+        borderBottomLeftRadius: 8,
+        borderBottomRightRadius: 8,
+    },
+    tableCell: {
+        flex: 1,
+        fontSize: 13,
+        color: '#333',
+    },
+    statusPending: {
+        color: '#f57c00',
+        fontWeight: '600',
+    },
+    statusDone: {
+        color: '#4CAF50',
+        fontWeight: '600',
+    },
+    bottomNav: {
+        flexDirection: 'row',
+        backgroundColor: '#fff',
+        paddingVertical: 15,
+        paddingHorizontal: 10,
+        borderTopWidth: 1,
+        borderTopColor: '#eee',
+        justifyContent: 'space-around',
+    },
+    navItem: {
+        alignItems: 'center',
+    },
+    navIcon: {
+        marginBottom: 4,
+    },
+    navText: {
+        fontSize: 11,
+        color: '#555',
+    },
+});
